@@ -13,10 +13,16 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| ----- | ----------------- | --------------- | ---------------------- |
+|       |                   |                 |                        |
+|       |                   |                 |                        |
+|       |                   |                 |                        |
+
+| Input                       | Expected Behavior                                             | Actual Behavior                                                | Console Output / Error |
+| --------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------- |
+| Guess 25 when secret was 97 | Game should say "GO HIGHER!"                                  | Game said "GO LOWER!"                                          | none                   |
+| Ran out of attempts         | Score should remain non-negative or have a reasonable penalty | Score became -30                                               | none                   |
+| Game over state             | User should not be able to continue guessing after losing     | Input field and submit button remained visible after game over | none                   |
 
 ---
 
