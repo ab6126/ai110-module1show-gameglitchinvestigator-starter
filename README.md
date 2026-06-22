@@ -13,6 +13,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run the broken app: `python -m streamlit run app.py`
+   I did everything correctly
 
 ## 🕵️‍♂️ Your Mission
 
@@ -24,10 +25,6 @@ It wrote the code, ran away, and now the game is unplayable.
    - Keep fixing until all tests pass!
 
 ## 📝 Document Your Experience
-
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
 
 ### Game Purpose
 
@@ -50,8 +47,6 @@ The purpose of this game is to let the player guess a randomly generated secret 
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
-
 1. Started a new game and opened the Developer Debug Info panel.
 2. The secret number was 49.
 3. Entered a guess of 25 and received the hint "Go HIGHER!".
@@ -67,4 +62,4 @@ $ python -m pytest ============================= test session starts ===========
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
+- I didn't do it
